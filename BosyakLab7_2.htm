@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<HTML>
+    <HЕAD>
+        <TITLE> Використання текcтового полю</TITLE>
+        <meta charset=UTF-8> 
+    </HEAD>
+         <BODY bgcolor="#FFF432" align="center">
+            <center>Реєстрація на сайті дистанційної освіти</center>
+            <pre>Ваше ім'я: <input name="name" type="text" maxlength="40" size="40" value="">
+                 Ваша стать:<input type="radio" name="pol" value="male">Чоловіча
+                  <input type="radio" name="pol" value="female">Жіноча
+                   На якому курсі Ви навчаєтесь? <select name="curs" size="1"> 
+                    <option value="1" selected> Перший </option> 
+                    <option value="2">Другий</option>
+                    <option value="3">Третій</option> 
+                    <option value="4">Четвертий</option>
+                    <option value="5">П'ятий</option>
+                    </select>
+                    Які дисципліни ви вивчаєте на курсі?
+                    WEB-програмування <input type="checkbox" name="web" value="yes" checked>
+                    Технічна електродинаміка<input type="checkbox" name="eldinam" value="yes">
+                <form>
+                    Укажіть Ваші навички:<br>
+                        <input type="checkbox" name="skill" value="1" checked> HTML <BR>
+                        <input type="checkbox" name="skill" value="2"> JavaScript <BR>
+                        <input type="checkbox" name="skill" value="3"> Perl <BR>
+                        <input type="checkbox" name="skill" value="4"> XML <BR> 
+                        <input type="checkbox" name="skill" value="5"> FLASH <BR>
+                </form>
+                    Напишіть декілька слів про себе:
+                    </pre>
+                    <textarea name="about" rows="6" cols="60" wrap="off"></textarea>
+                    <p><input type="submit" value=" Відіслати дані ">
+                    <input type="reset" value=" Очистити форму ">
+                    <input type="file" name="friend" size="50" accept="припустимий тип файлу">
+                </form>
+                <FORM>
+                    Введіть пароль доступу 
+                    <input type="password" size="8" maxlength="10"> 
+                </FORM>
+         </BODY>
+</HTML>
