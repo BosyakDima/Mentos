@@ -1,0 +1,41 @@
+.container{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
+    border-bottom: 2px solid red;
+}
+.universityLogos{
+    float:left;
+}
+.departmentLogos{
+    float:right;
+    margin: 60px auto;
+}
+.png{
+    width:200px;
+    height:200px;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
+}
+.menu-item{
+    display: block;
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    float:left;
+}
+footer{
+    background-color: black;
+    height: 40px;
+    text-align: center;
+}
+header{
+    text-align: center;
+}
